@@ -1,0 +1,245 @@
+{
+	"basics": {
+		"name": "José Gustavo Zimbrón Lara",
+		"label": "Full Stack Developer y apasionado por las motos.",
+		"image": "/me.webp",
+		"email": "gustavo@zimbron.dev",
+		"url": "https://zimbron.dev",
+		"summary": "Cuento con más de 10 años de experiencia en el desarrollo de aplicaciones web y móviles. Me apasiona la tecnología, la programación y las motocicletas. Me considero una persona proactiva, responsable y comprometida con mi trabajo.",
+		"location": {
+			"address": "",
+			"postalCode": "",
+			"city": "Tamaulipas",
+			"countryCode": "MX",
+			"region": "México"
+		},
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": "gustavo-zimbron",
+				"url": "https://www.linkedin.com/in/gustavo-zimbron/"
+			},
+			{
+				"network": "GitHub",
+				"username": "gzimbron",
+				"url": "https://github.com/gzimbron"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "Zafiro Technology",
+			"position": "Fullstack Web Developer",
+			"url": "https://zafirosoft.com",
+			"startDate": "2021-10-01",
+			"endDate": null,
+			"summary": "Desarrollo de aplicaciones web para distintos clientes, utilizando tecnologías como Svelte, SvelteKit, Node.js, Nest, AWS, entre otras.",
+			"highlights": [
+				"Creación de paquete de componentes para SvelteKit",
+				"Desarrollo arquitectura base para aplicaciones web"
+			]
+		},
+		{
+			"name": "Zimbronapps",
+			"position": "Desarrollador de aplicaciones móviles",
+			"url": "https://zimbronapps.com/category/aplicaciones/",
+			"startDate": "2017-01-01",
+			"endDate": "2021-10-01",
+			"summary": "Desarrollo de aplicaciones personales utilizando tecnologías como Java, Kotlin, Flutter. Entre las aplicaciones más populares se encuentra Lotería Online una aplicación para jugar lotería mexicana en línea con amigos, familiares o desconocidos. También desarrollé algunas aplicaciones de lotería para apoyar a comunidades indígenas con la preservación de sus lenguas.",
+			"highlights": ["Lotería Online", "Chalupa lú Diidxazá", "Lotería en Mixe", "Biografías"]
+		},
+		{
+			"name": "Freelancer",
+			"position": "Desarrollo de aplicaciones web a medida",
+			"startDate": "2007-01-01",
+			"endDate": "2014-01-01",
+			"summary": "Desarrollo de pequeñas aplicaciones web a medida para distintos clientes, utilizando tecnologías como PHP, MySQL, HTML, CSS, JavaScript, entre otras. Entre los proyectos más destacados se encuentran: Super Admin, Fanpage Cleaner y Facebook Group Cleaner, los cuales hacían uso de la graph api de Facebook, Super Admin permitía a mis clientes programar publicaciones en sus fanpages y grupos de Facebook, además de permitirles limpiar sus fanpages y grupos de Facebook de manera automática pagando una membresía mensual.",
+			"highlights": ["Super Admin", "Fanpage Cleaner", "Facebook Group Cleaner"]
+		}
+	],
+	"volunteer": [],
+	"education": [
+		{
+			"institution": "Tecnológico Nacional de México Campus Altamira",
+			"url": "https://www.tecnm.mx/?vista=noticia&id=483",
+			"area": "Ingeniero en Sistemas Computacionales",
+			"studyType": "Ingeniería",
+			"startDate": "2015-08-01",
+			"endDate": "2019-12-01",
+			"score": "96.9",
+			"courses": []
+		},
+		{
+			"institution": "Amazon Web Services (AWS)",
+			"url": "https://cp.certmetrics.com/amazon/en/public/verify/credential/WE9TV6PBM1B41NK5",
+			"area": "AWS Certified Cloud Practitioner Vigencia: 2022 - 2025",
+			"studyType": "Certificado",
+			"startDate": null,
+			"endDate": null,
+			"score": "96.9",
+			"courses": []
+		},
+		{
+			"institution": "Cursos en línea",
+			"url": "",
+			"area": "Cursos en plataformas de educación en línea",
+			"studyType": "Certificado",
+			"startDate": null,
+			"endDate": null,
+			"score": "96.9",
+			"courses": [
+				"Docker",
+				"NodeJS",
+				"Flutter",
+				"SvelteKit",
+				"Python",
+				"Angular",
+				"JavaScript",
+				"Principios SOLID",
+				"NestJS"
+			]
+		}
+	],
+	"awards": [
+		{
+			"title": "Award",
+			"date": "2014-11-01",
+			"awarder": "Company",
+			"summary": "There is no spoon."
+		}
+	],
+	"certificates": [
+		{
+			"name": "Certificate",
+			"date": "2021-11-07",
+			"issuer": "Company",
+			"url": "https://certificate.com"
+		}
+	],
+	"publications": [
+		{
+			"name": "Publication",
+			"publisher": "Company",
+			"releaseDate": "2014-10-01",
+			"url": "https://publication.com",
+			"summary": "Description…"
+		}
+	],
+	"skills": [
+		{
+			"name": "HTML",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend"]
+		},
+		{
+			"name": "CSS",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+		},
+		{
+			"name": "JavaScript",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+		},
+		{
+			"name": "Tailwind",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"]
+		},
+		{
+			"name": "TypeScript",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"]
+		},
+		{
+			"name": "Node",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+		},
+		{
+			"name": "MySQL",
+			"level": "Avanzado",
+			"keywords": ["Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"]
+		},
+		{
+			"name": "Git",
+			"level": "Avanzado",
+			"keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+		},
+		{
+			"name": "GitHub",
+			"level": "Avanzado",
+			"keywords": ["Control de Versiones", "Colaboración", "Código Fuente", "Git"]
+		},
+		{
+			"name": "SvelteKit",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "Svelte Framework", "SSR", "Static Generation"]
+		},
+		{
+			"name": "Svelte",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+		},
+		{
+			"name": "Flutter",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+		},
+		{
+			"name": "React",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+		},
+		{
+			"name": "Nest",
+			"level": "Intermedio",
+			"keywords": ["Desarrollo Web", "Backend", "Node.js", "Framework"]
+		},
+		{
+			"name": "AWS",
+			"level": "Intermedio",
+			"keywords": ["Desarrollo Web", "Backend", "Node.js", "Framework"]
+		}
+	],
+	"languages": [
+		{
+			"language": "Spanish",
+			"fluency": "Native speaker"
+		},
+		{
+			"language": "English",
+			"fluency": "Intermediate"
+		}
+	],
+	"interests": [
+		{
+			"name": "Motociclismo",
+			"keywords": ["Husqvarna", "Enduro"]
+		}
+	],
+	"references": [],
+	"projects": [
+		{
+			"name": "Lotería Online",
+			"isActive": true,
+			"description": "Aplicación para jugar lotería mexicana en línea con amigos, familiares o desconocidos. Aplicacion en tiempo real, con chat integrado.",
+			"highlights": ["Juego en línea", "Aplicación"],
+			"url": "https://loteria-online.app"
+		},
+		{
+			"name": "Baraja de Lotería",
+			"isActive": true,
+			"description": "Aplicación que mezcla y canta las cartas de lotería por ti; Puedes personalizar imágenes, audios e incluso crear tus propias barajas e imprimir tablas de lotería.",
+			"highlights": ["Cartas", "Aplicación", "Imprimir tablas de lotería"],
+			"url": "https://baraja.com.mx/"
+		},
+		{
+			"name": "Dental Track",
+			"isActive": true,
+			"description": "Aplicación para llevar un control de tu salud dental, reegistra cepillados, enjuagues y uso de hilo dental. Además de cronometrar el tiempo de cada actividad.",
+			"highlights": ["Aplicación", "Salud Dental"],
+			"url": "https://zimbronapps.com/aplicaciones/control-dental-dental-track/"
+		}
+	]
+}
