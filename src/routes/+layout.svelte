@@ -1,6 +1,12 @@
 <script>
 	import '../app.pcss';
+	import { basics } from '$cv';
+	import Seo from '$components/Seo.svelte';
+
+	const { name, label } = basics;
 </script>
+
+<Seo metadescription="Currículum Vitae de {name}. {label}" title="{name} - CV"></Seo>
 
 <main>
 	<slot />
