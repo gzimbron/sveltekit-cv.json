@@ -4,15 +4,7 @@ const config = {
 
 	theme: {
 		extend: {
-			fontSize: {
-				xl: '24px',
-				lg: '20px',
-				md: '16px',
-				base: '14px',
-				sm: '12px',
-				xs: '10px',
-				xxs: '8px'
-			},
+			fontSize: {},
 			fontFamily: {},
 			colors: {}
 		}

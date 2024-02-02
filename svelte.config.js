@@ -12,7 +12,9 @@ const config = {
 		alias: {
 			$appTheme: './src/apptheme.css',
 			$appCss: './src/app.postcss',
-			'$components/*': './src/lib/components/*'
+			$cv: './src/cv.json',
+			'$components/*': './src/lib/components/*',
+			'$sections/*': './src/lib/sections/*'
 		}
 	}
 };
