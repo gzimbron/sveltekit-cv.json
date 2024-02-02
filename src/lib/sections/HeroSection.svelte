@@ -22,8 +22,8 @@
 	</figure>
 	<div class="data">
 		<h1>{name}</h1>
-		<h2>{label}</h2>
-		<span class="flex items-baseline gap-2">
+		<h2 class="text-secondary">{label}</h2>
+		<span class="flex items-baseline gap-2 text-sm">
 			<Icon icon="fa-solid:map-marker-alt" class="text-red-500" />
 			{city}, {region}
 		</span>

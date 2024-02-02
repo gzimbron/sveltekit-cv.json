@@ -16,7 +16,7 @@ const config = {
 				myCV: {
 					primary: '#4b5563',
 					secondary: '#0369a1',
-					accent: '#facc15',
+					accent: '#a8a29e',
 					neutral: '#030303',
 					'base-100': '#fbffff',
 					info: '#00c4ff',
