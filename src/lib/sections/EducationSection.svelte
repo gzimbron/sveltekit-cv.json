@@ -1,9 +1,7 @@
 <script lang="ts">
 	import EducationCard from '$components/EducationCard.svelte';
 	import SectionBase from '$components/SectionBase.svelte';
-	import StartEndDate from '$components/StartEndDate.svelte';
 	import { education } from '$cv';
-	import Icon from '@iconify/svelte';
 </script>
 
 <SectionBase title="Educación">

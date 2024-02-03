@@ -1,6 +1,11 @@
 <script lang="ts">
-	import Icon from '@iconify/svelte';
 	import { basics } from '$cv';
+	import GitHub from '$icons/GitHub.svelte';
+	import LinkedIn from '$icons/LinkedIn.svelte';
+	import Mail from '$icons/Mail.svelte';
+	import MapPoint from '$icons/MapPoint.svelte';
+	import YouTube from '$icons/YouTube.svelte';
+	import type { ComponentType } from 'svelte';
 
 	const {
 		name,
@@ -11,9 +16,11 @@
 		email
 	} = basics;
 
-	const linkedInfo = profiles.find(({ network }) => network === 'LinkedIn');
-	const linkedUrl = linkedInfo?.url;
-	const printInfo = [email, linkedUrl].filter(Boolean).join(' • ');
+	const SOCIAL_ICONS: Record<string, ComponentType> = {
+		GitHub,
+		LinkedIn,
+		YouTube
+	};
 </script>
 
 <section>
@@ -24,13 +31,11 @@
 		<h1>{name}</h1>
 		<h2 class="text-secondary">{label}</h2>
 		<span class="flex items-baseline justify-center gap-2 text-sm sm:justify-normal">
-			<Icon icon="fa-solid:map-marker-alt" class="text-red-500" />
+			<MapPoint class="text-primary" />
 			{city}, {region}
 		</span>
-		<footer class="print">
-			{printInfo}
-		</footer>
-		<footer class="no-print">
+
+		<footer>
 			{#if email}
 				<a
 					href={`mailto:${email}`}
@@ -39,7 +44,7 @@
 					rel="noopener noreferrer"
 					class="iconbtn"
 				>
-					<Icon icon="fa6-solid:envelope" />
+					<Mail />
 				</a>
 			{/if}
 			{#each profiles as { url, network }}
@@ -50,7 +55,7 @@
 					rel="noopener noreferrer"
 					class="iconbtn"
 				>
-					<Icon icon={`fa6-brands:${network.toLowerCase()}`} />
+					<svelte:component this={SOCIAL_ICONS[network]} />
 				</a>
 			{/each}
 		</footer>

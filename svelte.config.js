@@ -12,7 +12,8 @@ const config = {
 			$appCss: './src/app.postcss',
 			$cv: './src/cv.json',
 			'$components/*': './src/lib/components/*',
-			'$sections/*': './src/lib/sections/*'
+			'$sections/*': './src/lib/sections/*',
+			'$icons/*': './src/lib/icons/*'
 		}
 	}
 };

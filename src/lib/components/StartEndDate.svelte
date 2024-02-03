@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Icon from '@iconify/svelte';
+	import Calendar from '$icons/Calendar.svelte';
 
 	export let startDate: string;
 	export let endDate: string | null;
@@ -11,7 +11,7 @@
 </script>
 
 <time>
-	<Icon icon="fa6-solid:calendar"></Icon>
+	<Calendar />
 	<span>{start.toLocaleDateString()}</span>
 
 	{#if (!hideActual && !endDate) || endDate}

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Icon from '@iconify/svelte';
+	import Book from '$icons/Book.svelte';
 	import type { CV } from '../../cv';
 	import StartEndDate from './StartEndDate.svelte';
 
@@ -29,7 +29,7 @@
 			<ul>
 				{#each courses as course}
 					<li class="badge badge-outline badge-sm text-accent sm:badge-md">
-						<Icon icon="fa6-solid:book" class="text-xs"></Icon>
+						<Book class="text-xs" />
 						{course}
 					</li>
 				{/each}

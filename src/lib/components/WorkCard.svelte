@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Icon from '@iconify/svelte';
+	import Medal from '$icons/Medal.svelte';
 	import type { CV } from '../../cv';
 	import StartEndDate from './StartEndDate.svelte';
 
@@ -33,7 +33,7 @@
 			<ul>
 				{#each highlights as highlight}
 					<li class="badge badge-outline badge-sm text-accent sm:badge-md">
-						<Icon icon="fa6-solid:medal" class="text-xs"></Icon>
+						<Medal class="text-xs" />
 						{highlight}
 					</li>
 				{/each}

@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
-  '@iconify/svelte':
-    specifier: ^3.1.6
-    version: 3.1.6(svelte@4.2.9)
   '@sveltejs/adapter-netlify':
     specifier: ^4.1.0
     version: 4.1.0(@sveltejs/kit@2.5.0)
@@ -364,19 +361,6 @@ packages:
 
   /@iarna/toml@2.2.5:
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
-    dev: true
-
-  /@iconify/svelte@3.1.6(svelte@4.2.9):
-    resolution: {integrity: sha512-yLSrlkOx5J6xXU5GDLPBV/MdVBVEZhd36onfqSbxQobp1XBoWQbMPLNZyCAmTKCPnmzXSowGy79agl8FQ3kj6A==}
-    peerDependencies:
-      svelte: '*'
-    dependencies:
-      '@iconify/types': 2.0.0
-      svelte: 4.2.9
-    dev: true
-
-  /@iconify/types@2.0.0:
-    resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
     dev: true
 
   /@isaacs/cliui@8.0.2:
