@@ -33,10 +33,13 @@
 			"url": "https://zafirosoft.com",
 			"startDate": "2021-10-01",
 			"endDate": null,
-			"summary": "Desarrollo de aplicaciones web para distintos clientes, utilizando tecnologías como Svelte, SvelteKit, Node.js, Nest, AWS, entre otras.",
+			"summary": "Desarrollo de aplicaciones web para distintos clientes, utilizando tecnologías como Svelte, SvelteKit, Node.js, Nest, AWS, entre otras. Entre los proyectos más destacados se encuentra la creación de un paquete de componentes para SvelteKit, el cual se utiliza en todas las aplicaciones web de la empresa. Además de trabajar en la arquitectura base para aplicaciones web basadas en Sveltekit. También he trabajado en la creación de infraestructura en la nube utilizando AWS Amplify, AWS Lambda, AWS DynamoDB, entre otros servicios de AWS.",
 			"highlights": [
-				"Creación de paquete de componentes para SvelteKit",
-				"Desarrollo arquitectura base para aplicaciones web"
+				"Svelte Components Package",
+				"Arquitectura Proyectos",
+				"AWS Amplify Infrastructure",
+				"AWS Lambda",
+				"AWS DynamoDB"
 			]
 		},
 		{
