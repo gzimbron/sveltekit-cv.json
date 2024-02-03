@@ -1,14 +1,15 @@
 <script lang="ts">
 	import SectionBase from '$components/SectionBase.svelte';
 	import { skills } from '$cv';
+	import Icon from '@iconify/svelte';
 </script>
 
 <SectionBase title="Habilidades">
 	<ul>
 		{#each skills as { name, level }}
 			<li class="badge badge-outline badge-sm text-secondary sm:badge-md">
+				<Icon icon="fa6-solid:star" class="text-xs text-warning"></Icon>
 				{name}
-				<progress class="progress progress-secondary w-20" value={level} max="100"></progress>
 			</li>
 		{/each}
 	</ul>
