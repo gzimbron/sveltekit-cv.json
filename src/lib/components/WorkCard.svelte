@@ -12,9 +12,13 @@
 	<header>
 		<div class="workinfo">
 			<h3>
-				<a href={url} title="Visitar sitio" target="_blank">
+				{#if url}
+					<a href={url} title="Visitar sitio" target="_blank">
+						{name}
+					</a>
+				{:else}
 					{name}
-				</a>
+				{/if}
 			</h3>
 			<h4>{position}</h4>
 		</div>
