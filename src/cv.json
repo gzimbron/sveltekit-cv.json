@@ -51,7 +51,7 @@
 			"name": "Zimbronapps",
 			"position": "Desarrollador de aplicaciones móviles",
 			"url": "https://zimbronapps.com/category/aplicaciones/",
-			"startDate": "2017-01-01",
+			"startDate": "2017-02-01",
 			"endDate": "2021-10-01",
 			"summary": "Desarrollo de aplicaciones personales utilizando tecnologías como Java, Kotlin, Flutter. Entre las aplicaciones más populares se encuentra Lotería Online una aplicación para jugar lotería mexicana en línea con amigos, familiares o desconocidos. También desarrollé algunas aplicaciones de lotería para apoyar a comunidades indígenas con la preservación de sus lenguas.",
 			"highlights": ["Lotería Online", "Chalupa lú Diidxazá", "Lotería en Mixe", "Biografías"]
@@ -59,8 +59,8 @@
 		{
 			"name": "Freelancer",
 			"position": "Desarrollo de aplicaciones web a medida",
-			"startDate": "2007-01-01",
-			"endDate": "2014-01-01",
+			"startDate": "2013-02-02",
+			"endDate": "2016-02-01",
 			"summary": "Desarrollo de pequeñas aplicaciones web a medida para distintos clientes, utilizando tecnologías como PHP, MySQL, HTML, CSS, JavaScript, entre otras. Entre los proyectos más destacados se encuentran: Super Admin, Fanpage Cleaner y Facebook Group Cleaner, los cuales hacían uso de la graph api de Facebook, Super Admin permitía a mis clientes programar publicaciones en sus fanpages y grupos de Facebook, además de permitirles limpiar sus fanpages y grupos de Facebook de manera automática pagando una membresía mensual.",
 			"highlights": ["Super Admin", "Fanpage Cleaner", "Facebook Group Cleaner"]
 		}
