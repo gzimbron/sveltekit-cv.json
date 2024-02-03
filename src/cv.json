@@ -128,77 +128,77 @@
 	"skills": [
 		{
 			"name": "HTML",
-			"level": "Avanzado",
+			"level": "100",
 			"keywords": ["Desarrollo Web", "Frontend"]
 		},
 		{
 			"name": "CSS",
-			"level": "Avanzado",
+			"level": "90",
 			"keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
 		},
 		{
 			"name": "JavaScript",
-			"level": "Avanzado",
+			"level": "100",
 			"keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
 		},
 		{
 			"name": "Tailwind",
-			"level": "Avanzado",
+			"level": "90",
 			"keywords": ["Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"]
 		},
 		{
 			"name": "TypeScript",
-			"level": "Avanzado",
+			"level": "100",
 			"keywords": ["Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"]
 		},
 		{
 			"name": "Node",
-			"level": "Avanzado",
+			"level": "80",
 			"keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
 		},
 		{
 			"name": "MySQL",
-			"level": "Avanzado",
+			"level": "70",
 			"keywords": ["Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"]
 		},
 		{
 			"name": "Git",
-			"level": "Avanzado",
+			"level": "90",
 			"keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
 		},
 		{
 			"name": "GitHub",
-			"level": "Avanzado",
+			"level": "90",
 			"keywords": ["Control de Versiones", "Colaboración", "Código Fuente", "Git"]
 		},
 		{
 			"name": "SvelteKit",
-			"level": "Avanzado",
+			"level": "100",
 			"keywords": ["Desarrollo Web", "Frontend", "Svelte Framework", "SSR", "Static Generation"]
 		},
 		{
 			"name": "Svelte",
-			"level": "Avanzado",
+			"level": "100",
 			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
 		},
 		{
 			"name": "Flutter",
-			"level": "Avanzado",
+			"level": "85",
 			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
 		},
 		{
 			"name": "React",
-			"level": "Avanzado",
+			"level": "60",
 			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
 		},
 		{
 			"name": "Nest",
-			"level": "Intermedio",
+			"level": "50",
 			"keywords": ["Desarrollo Web", "Backend", "Node.js", "Framework"]
 		},
 		{
 			"name": "AWS",
-			"level": "Intermedio",
+			"level": "60",
 			"keywords": ["Desarrollo Web", "Backend", "Node.js", "Framework"]
 		}
 	],
