@@ -76,8 +76,11 @@
 		}
 	}
 
+	figure {
+		@apply aspect-square h-full w-full max-w-sm  sm:w-36;
+	}
 	img {
-		@apply aspect-square w-full max-w-sm rounded-md sm:w-36;
+		@apply h-full w-full rounded-md object-cover;
 	}
 
 	footer {
