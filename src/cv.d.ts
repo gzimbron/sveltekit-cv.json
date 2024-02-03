@@ -42,9 +42,9 @@ interface Profiles {
 interface Work {
 	name: string;
 	position: string;
-	url: string;
-	startDate: DateStr;
-	endDate: DateStr | null;
+	url?: string;
+	startDate: string;
+	endDate: string | null;
 	summary: string;
 	highlights: Highlight;
 }
