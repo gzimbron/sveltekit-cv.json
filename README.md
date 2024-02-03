@@ -1,6 +1,6 @@
-# create-svelte
+# Sveltekit CV.json Template
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Basado en el proyecto de [CV de Bartosz Jarocki](https://github.com/BartoszJarocki/cv)
 
 ## Creating a project
 
