@@ -44,7 +44,7 @@
 	}
 
 	header {
-		@apply mb-2 flex flex-col items-baseline justify-between gap-2 md:flex-row;
+		@apply mb-2 flex flex-col items-baseline justify-between gap-5 md:flex-row;
 	}
 
 	.educationinfo {

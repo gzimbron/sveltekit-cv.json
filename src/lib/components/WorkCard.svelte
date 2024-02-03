@@ -12,15 +12,20 @@
 	<header>
 		<div class="workinfo">
 			<h3>
-				<a href={url} title="Visitar sitio" target="_blank">
+				{#if url}
+					<a href={url} title="Visitar sitio" target="_blank">
+						{name}
+					</a>
+				{:else}
 					{name}
-				</a>
+				{/if}
 			</h3>
 			<h4>{position}</h4>
 		</div>
 
 		<StartEndDate {startDate} {endDate} />
 	</header>
+
 	<p>{summary}</p>
 
 	{#if highlights.length}
@@ -39,11 +44,11 @@
 
 <style lang="postcss">
 	article {
-		@apply flex flex-col gap-4;
+		@apply flex flex-col gap-5;
 	}
 
 	header {
-		@apply mb-2 flex flex-col items-baseline justify-between gap-2 md:flex-row;
+		@apply flex flex-col items-baseline justify-between gap-2 md:flex-row;
 	}
 
 	.workinfo {

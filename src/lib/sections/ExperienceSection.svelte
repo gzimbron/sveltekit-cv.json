@@ -16,6 +16,6 @@
 
 <style lang="postcss">
 	ul {
-		@apply flex flex-col gap-5;
+		@apply flex flex-col gap-10;
 	}
 </style>
