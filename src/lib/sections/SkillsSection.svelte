@@ -6,9 +6,9 @@
 <SectionBase title="Habilidades">
 	<ul>
 		{#each skills as { name, level }}
-			<li class="badge badge-outline badge-sm text-primary sm:badge-md">
+			<li class="badge badge-outline badge-sm text-secondary sm:badge-md">
 				{name}
-				<progress class="progress progress-primary w-20" value={level} max="100"></progress>
+				<progress class="progress progress-secondary w-20" value={level} max="100"></progress>
 			</li>
 		{/each}
 	</ul>

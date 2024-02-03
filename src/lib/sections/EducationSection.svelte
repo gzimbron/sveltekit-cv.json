@@ -28,7 +28,7 @@
 					<footer>
 						<ul>
 							{#each courses as course}
-								<li class=" badge badge-outline badge-sm sm:badge-md">
+								<li class="badge badge-outline badge-sm text-accent sm:badge-md">
 									<Icon icon="fa6-solid:book" class="text-xs"></Icon>
 									{course}
 								</li>
@@ -61,6 +61,6 @@
 		@apply flex-row flex-wrap gap-2;
 	}
 	footer ul li {
-		@apply flex gap-2 text-info;
+		@apply flex gap-2;
 	}
 </style>
