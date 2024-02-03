@@ -12,9 +12,8 @@
 	</figure>
 	<div class="card-body px-5 py-4">
 		<h2 class="card-title">
-			{#if isActive}
-				<div class="badge badge-success badge-xs"></div>
-			{/if}
+			<div class="badge badge-xs {isActive ? 'badge-success' : 'badge-error'}"></div>
+
 			{#if url}
 				<a href={url} title={name} target="_blank">{name}</a>
 			{:else}
@@ -32,6 +31,6 @@
 
 <style lang="postcss">
 	img {
-		@apply aspect-[2];
+		@apply aspect-[2] object-cover object-top;
 	}
 </style>

@@ -259,6 +259,14 @@
 			"image": "/projects/amplifyadapter.webp",
 			"highlights": ["AWS", "SvelteKit"],
 			"url": "https://github.com/gzimbron/amplify-adapter"
+		},
+		{
+			"name": "Super Admin",
+			"isActive": false,
+			"description": "Super-Admin.com era una aplicación web que permitía a los duseños de FanPages y Grupos de Facebook programar publicaciones, podías publicar imágenes cada 5 minutos, con la posibilidad de elegir aleatoriamente entre varias imágenes y textos. ",
+			"image": "/projects/super-admin.webp",
+			"highlights": ["Facebook Publisher"],
+			"url": "https://web.archive.org/web/20140208040644/http://super-admin.com/"
 		}
 	]
 }
