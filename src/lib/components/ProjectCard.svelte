@@ -8,7 +8,7 @@
 
 <div class="card w-full bg-base-100 shadow-xl">
 	<figure>
-		<img src={image || '/projects/defaultbg.webp'} alt="Shoes" />
+		<img src={image || '/projects/defaultbg.webp'} width="360" height="180" alt={name} />
 	</figure>
 	<div class="card-body px-5 py-4">
 		<h2 class="card-title">
@@ -31,4 +31,7 @@
 </div>
 
 <style lang="postcss">
+	img {
+		@apply aspect-[2];
+	}
 </style>
