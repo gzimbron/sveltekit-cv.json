@@ -12,12 +12,12 @@
 
 <time>
 	<Calendar />
-	<span>{start.toLocaleDateString()}</span>
+	<span>{start.getFullYear()}</span>
 
 	{#if (!hideActual && !endDate) || endDate}
 		<span> - </span>
 
-		<span>{end ? end.toLocaleDateString() : 'Actual'}</span>
+		<span>{end ? end.getFullYear() : 'A la fecha'}</span>
 	{/if}
 </time>
 
