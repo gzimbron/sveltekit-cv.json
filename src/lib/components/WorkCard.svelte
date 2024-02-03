@@ -25,6 +25,7 @@
 
 		<StartEndDate {startDate} {endDate} />
 	</header>
+
 	<p>{summary}</p>
 
 	{#if highlights.length}
@@ -43,11 +44,11 @@
 
 <style lang="postcss">
 	article {
-		@apply flex flex-col gap-4;
+		@apply flex flex-col gap-5;
 	}
 
 	header {
-		@apply mb-2 flex flex-col items-baseline justify-between gap-2 md:flex-row;
+		@apply flex flex-col items-baseline justify-between gap-2 md:flex-row;
 	}
 
 	.workinfo {
