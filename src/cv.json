@@ -224,6 +224,7 @@
 			"name": "Lotería Online",
 			"isActive": true,
 			"description": "Aplicación para jugar lotería mexicana en línea con amigos, familiares o desconocidos. Aplicacion en tiempo real, con chat integrado.",
+			"image": "/projects/loteriaonline.webp",
 			"highlights": ["Juego en línea", "Aplicación"],
 			"url": "https://loteria-online.app"
 		},
@@ -231,6 +232,7 @@
 			"name": "Baraja de Lotería",
 			"isActive": true,
 			"description": "Aplicación que mezcla y canta las cartas de lotería por ti; Puedes personalizar imágenes, audios e incluso crear tus propias barajas e imprimir tablas de lotería.",
+			"image": "/projects/barajaloteria.webp",
 			"highlights": ["Cartas", "Aplicación", "Imprimir tablas de lotería"],
 			"url": "https://baraja.com.mx/"
 		},
@@ -238,8 +240,17 @@
 			"name": "Dental Track",
 			"isActive": true,
 			"description": "Aplicación para llevar un control de tu salud dental, reegistra cepillados, enjuagues y uso de hilo dental. Además de cronometrar el tiempo de cada actividad.",
+			"image": "/projects/dentaltrack.webp",
 			"highlights": ["Aplicación", "Salud Dental"],
 			"url": "https://zimbronapps.com/aplicaciones/control-dental-dental-track/"
+		},
+		{
+			"name": "Amplify Adapter",
+			"isActive": true,
+			"description": "Adaptador de SvelteKit para poder desplegar aplicaciones SSR en AWS Amplify Hosting.",
+			"image": "/projects/amplifyadapter.webp",
+			"highlights": ["AWS", "SvelteKit"],
+			"url": "https://github.com/gzimbron/amplify-adapter"
 		}
 	]
 }
