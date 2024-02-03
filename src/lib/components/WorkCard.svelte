@@ -23,19 +23,25 @@
 	</header>
 	<p>{summary}</p>
 
-	<footer>
-		<ul>
-			{#each highlights as highlight}
-				<li class="badge badge-outline badge-sm text-accent sm:badge-md">
-					<Icon icon="fa6-solid:medal" class="text-xs"></Icon>
-					{highlight}
-				</li>
-			{/each}
-		</ul>
-	</footer>
+	{#if highlights.length}
+		<footer>
+			<ul>
+				{#each highlights as highlight}
+					<li class="badge badge-outline badge-sm text-accent sm:badge-md">
+						<Icon icon="fa6-solid:medal" class="text-xs"></Icon>
+						{highlight}
+					</li>
+				{/each}
+			</ul>
+		</footer>
+	{/if}
 </article>
 
 <style lang="postcss">
+	article {
+		@apply flex flex-col gap-4;
+	}
+
 	header {
 		@apply mb-2 flex flex-col items-baseline justify-between gap-2 md:flex-row;
 	}
