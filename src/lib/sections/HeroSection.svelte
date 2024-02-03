@@ -23,7 +23,7 @@
 	<div class="data">
 		<h1>{name}</h1>
 		<h2 class="text-secondary">{label}</h2>
-		<span class="flex items-baseline gap-2 text-sm">
+		<span class="flex items-baseline justify-center gap-2 text-sm sm:justify-normal">
 			<Icon icon="fa-solid:map-marker-alt" class="text-red-500" />
 			{city}, {region}
 		</span>
@@ -63,10 +63,16 @@
 		@apply sm:flex-row sm:items-start;
 	}
 	.data {
-		@apply flex flex-1 flex-col gap-1;
+		@apply flex flex-1 flex-col items-center gap-1 sm:items-start;
+
+		& h1,
+		h2 {
+			@apply text-center sm:text-left;
+		}
 	}
+
 	img {
-		@apply aspect-square w-48 rounded-md sm:w-32;
+		@apply aspect-square w-full max-w-sm rounded-md sm:w-36;
 	}
 
 	footer {
