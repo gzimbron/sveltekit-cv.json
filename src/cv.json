@@ -253,11 +253,19 @@
 			"url": "https://zimbronapps.com/aplicaciones/control-dental-dental-track/"
 		},
 		{
+			"name": "Svelte DataGrid",
+			"isActive": true,
+			"description": "Proyecto Open Source Componente de Svelte, con capacidad de soportar altas cantidades de datos por su virual scroll, que carga solamente una parte de los datos a la vez. ",
+			"image": "/projects/datagrid.webp",
+			"highlights": ["Svelte", "Open Source", "CI/CD", "Monorepo"],
+			"url": "https://github.com/gzimbron/svelte-datagrid"
+		},
+		{
 			"name": "Amplify Adapter",
 			"isActive": true,
 			"description": "Adaptador de SvelteKit para poder desplegar aplicaciones SSR en AWS Amplify Hosting.",
 			"image": "/projects/amplifyadapter.webp",
-			"highlights": ["AWS", "SvelteKit"],
+			"highlights": ["AWS", "SvelteKit", "Open Source", "CI/CD"],
 			"url": "https://github.com/gzimbron/amplify-adapter"
 		},
 		{
