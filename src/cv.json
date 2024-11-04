@@ -269,6 +269,14 @@
 			"url": "https://github.com/gzimbron/amplify-adapter"
 		},
 		{
+			"name": "Svelte Actions",
+			"isActive": true,
+			"description": "Es un paquete que incluye una variedad de Svelte Actions para agilizar el desarrollo de sus aplicaciones, cuenta con acciones como inView, outOfView, clickOutside, etc.",
+			"image": "/projects/svelte-actions.webp",
+			"highlights": ["Svelte", "Open Source", "Actions", "Developer"],
+			"url": "https://gzimbron.github.io/svelte-actions"
+		},
+		{
 			"name": "Super Admin",
 			"isActive": false,
 			"description": "Super-Admin.com era una aplicación web que permitía a los duseños de FanPages y Grupos de Facebook programar publicaciones, podías publicar imágenes cada 5 minutos, con la posibilidad de elegir aleatoriamente entre varias imágenes y textos. ",
